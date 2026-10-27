@@ -8,6 +8,7 @@ Praktikum Pengolahan Citra dan Visi Komputer.
 - `Modul 5/` - Week5_26.ipynb (histogram, histogram equalization, dithering)
 - `Modul 6/` - Modul_6_D, Modul_6_E, dan Tugas_Praktikum_PCVK (filter spasial dan filter modern)
 - `Modul 7/` - Week7.ipynb (segmentasi: global/adaptive/Otsu threshold manual, region growing, flood, K-Means) dan Tugas_Kelompok_Week7.ipynb (OCR KTP)
+- `Modul 9/` - Week9.ipynb (morfologi: erosi, dilasi, opening, closing, top-hat, black-hat, skeleton, thinning)
 
 Notebook dijalankan di Google Colab.
 
@@ -23,3 +24,8 @@ Modul 7 memakai citra contoh dari `Images/` (gradient.jpg, sudoku-original.jpg,
 lena_gs_lc2.jpg, ktp_fulan.jpg), citra `coins` dari skimage, dan citra KTP sendiri di
 `Images/<NIM>/`. Bagian global threshold, adaptive threshold, dan Otsu dibuat manual dengan
 NumPy; pemanggilan OpenCV hanya dipakai di sel verifikasi untuk membandingkan hasil.
+
+Modul 9 memakai `plat nomer.jpg`, `j.png`, `kitten01.jpg`, dan `lily.jpg` dari `Images/`,
+serta citra KTP di `Images/<NIM>/`. Erosi dan dilasi dibuat manual dengan NumPy lalu
+dibandingkan dengan OpenCV. Kalau `plat nomer.jpg` atau `j.png` tidak ada, notebook membuat
+citra pengganti sederhana supaya tetap bisa dijalankan.
